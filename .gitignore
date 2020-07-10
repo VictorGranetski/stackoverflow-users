@@ -1,0 +1,3 @@
+# Project exclude paths
+/interview/.gradle/
+/interview/build/
