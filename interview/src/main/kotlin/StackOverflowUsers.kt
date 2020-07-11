@@ -153,7 +153,7 @@ data class User(
         @Json(name = "reputation") val reputation: Int,
         @Json(name = "location") val location: String?,
         @Json(name = "link") val link: String,
-        @Json(name = "profile_image") val profileImage: String,
+        @Json(name = "profile_image") val profileImage: String?,
         @Json(name = "display_name") val displayName: String,
         val tags: List<String> = emptyList()
 ) {
