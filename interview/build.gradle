@@ -18,9 +18,6 @@ dependencies {
 
     // moshi
     implementation "com.squareup.moshi:moshi-kotlin:1.9.3"
-
-    // coroutines
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7"
 }
 
 compileKotlin {
@@ -30,5 +27,5 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "11"
 }
 
-mainClassName = "StackOverflowUsersKT"
+mainClassName = "StackOverflowUsersAppKt"
 
